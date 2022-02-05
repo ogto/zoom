@@ -145,7 +145,6 @@ socket.on("ice", (ice) => {
 });
 
 // RTC Code
-
 function makeConnection() {
   myPeearConnection = new RTCPeerConnection({
     iceServers: [
